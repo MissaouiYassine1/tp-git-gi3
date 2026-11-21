@@ -9,6 +9,9 @@ public class Operation{
         return a+b;
     }
     public static double division(int a,int b){
-        return (double) a/b;
+        if (b!=0) {
+            return (double) a/b;
+        }
+        else return 0;
     }
 }
